@@ -1,0 +1,85 @@
+/* Reset default button styles */
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Common styles for input and buttons */
+input, button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Primary button style */
+button.primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: 2px solid #007BFF;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Secondary button style */
+button.secondary {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+button.secondary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+/* Styled text input */
+input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Apply a theme background color to the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for headers */
+h1 {
+    color: #333;
+    background-color: #007BFF;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Styled alert message */
+p.alert {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+/* Form container style */
+form {
+    margin-top: 20px;
+}
+
+/* Label style */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
